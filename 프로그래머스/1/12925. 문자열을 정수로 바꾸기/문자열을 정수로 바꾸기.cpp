@@ -3,6 +3,8 @@
 using namespace std;
 
 int solution(string s) {
+    
+    // stoi()를 안쓰고 풀기
     /*
     int answer = 0;
     
@@ -20,8 +22,6 @@ int solution(string s) {
             answer = -answer;
     }
     */
-    
-    
     
     return stoi(s);
 }
